@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# KnoxCall CLI — sign in once, every KnoxCall SDK on this machine picks it up.
+
+require "knoxcall/cli"
+
+exit KnoxCall::CLI.run(ARGV)
